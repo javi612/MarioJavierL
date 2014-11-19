@@ -20,7 +20,8 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
         
-        {name: "javierAlevel01", type: "tmx", src: "data/map/javierAlevel01.tmx"}
+        {name: "javierAlevel01", type: "tmx", src: "data/map/javierAlevel01.tmx"},
+        {name: "javierAlevel02", type: "tmx", src: "data/map/javierAlevel02.tmx"},
 
 	/* Background music. 
 	 * @example
