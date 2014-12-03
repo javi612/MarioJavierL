@@ -39,6 +39,8 @@
   <object name="levelTrigger" x="900" y="454" width="88" height="102">
    <properties>
     <property name="level" value="javierAlevel02"/>
+    <property name="xSpawn" value="400"/>
+    <property name="ySpawn" value="0"/>
    </properties>
   </object>
  </objectgroup>
