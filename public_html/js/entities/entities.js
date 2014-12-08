@@ -1,4 +1,7 @@
-// TODO
+//=============================================================================
+//this shows the shape and heiight of the mario
+//=============================================================================
+
 game.PlayerEntity = me.Entity.extend({
     init: function(x, y, settings) {
         this._super(me.Entity, 'init', [x, y, {
@@ -19,6 +22,10 @@ game.PlayerEntity = me.Entity.extend({
 
         this.body.setVelocity(5, 20);
     },
+    // ========================================================================
+    // this tells the mario to jump go left and right
+    //=========================================================================
+    
     update: function(delta) {
         if (me.input.isKeyPressed("right")) {
             this.body.vel.x += this.body.accel.x * me.timer.tick;
@@ -54,6 +61,9 @@ game.PlayerEntity = me.Entity.extend({
     }
 
 });
+//=============================================================================
+// this shows the spawn of the mario
+//=============================================================================
 
 game.LevelTrigger = me.Entity.extend({
     init: function(x, y, settings) {

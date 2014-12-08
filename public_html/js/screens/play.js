@@ -25,6 +25,10 @@ game.PlayScreen = me.ScreenObject.extend({
         // remove the HUD from the game world
         me.game.world.removeChild(this.HUD);
     },
+    //=========================================================================
+    //it resets the player so you can play agian
+    //=========================================================================
+    
     resetPlayer: function(x, y) {
         console.log(x + " " + y);
         var player = me.pool.pull("mario", x, y, {});
