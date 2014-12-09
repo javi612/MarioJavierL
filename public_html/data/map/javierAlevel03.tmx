@@ -6,9 +6,14 @@
  <tileset firstgid="170" name="meta-tiles" tilewidth="70" tileheight="70">
   <image source="../img/meta-tiles.png" width="350" height="70"/>
  </tileset>
+ <layer name="foreground1" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
  <layer name="background1" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9yKNQL7n68xjI15/HQL5+dL2k6Meml1j9uPTi049PDzEYAKPFEuk=
+   eJxjYKA9yKNQL7n68xjI15/HQL5+dL2k6MemF5d+KyL14tJvCcS5SBifflwYANAdE1k=
   </data>
  </layer>
  <layer name="background2" width="16" height="9">
@@ -21,14 +26,9 @@
    eJxjYBgFo4B8AAACQAAB
   </data>
  </layer>
- <layer name="collision" width="16" height="9">
+ <layer name="collision" width="16" height="9" opacity="0.61">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B8AAACQAAB
-  </data>
- </layer>
- <layer name="foreground1" width="16" height="9">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B8AAACQAAB
+   eJzLZ2BgyKcxXkehXnL1r6NA/zoK9KPrJUU/Nr3E6selF59+fHqIwQBqk0lF
   </data>
  </layer>
  <layer name="background" width="16" height="9">
